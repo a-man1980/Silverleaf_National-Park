@@ -10,7 +10,9 @@
 body{
     background: #f9f9f9;
     min-height: 100vh;
+    max-height: max-content;
     overflow-x: hidden;
+
 }
 
 header{
@@ -29,7 +31,6 @@ header{
 .logo{
     font-size: 2em;
     color: #359381;
-    pointer-events: none;
     margin-right: 270px;
 }
 
@@ -81,6 +82,7 @@ header{
     position: relative;
     background: #003329;
     padding: 100px;
+    
 }
 
 .sec h2{
@@ -94,3 +96,12 @@ header{
     color: #fff;
     font-weight: 300;
 }
+
+.carousel img{
+    height: 650px;
+    width: 100%;
+}
+
+
+
+
